@@ -2,8 +2,12 @@ import random
 
 
 def generate_example():
-    a = random.randint(1, 50)
-    b = random.randint(1, 50)
+    if difficulty == "easy":
+        a = random.randint(1, 10)
+        b = random.randint(1, 10)
+    else:
+        a = random.randint(1, 50)
+        b = random.randint(1, 50)
     op = random.choice(['+', '-', '*'])
 
     if op == '+':
