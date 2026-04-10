@@ -53,7 +53,8 @@ def math_quiz():
             print("Неплохо, но можно лучше")
         else:
             print("Нужно подтянуть математику")
-
+    if score > best_score:
+        best_score = score
 
 while True:
     print("\n1. Начать тренировку")
