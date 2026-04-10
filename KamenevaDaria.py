@@ -34,12 +34,12 @@ def math_quiz():
         try:
             answer = int(input("Твой ответ: "))
             if answer == correct:
-                print("Правильно!")
+                print("Правильно!🤩")
                 score += 1
             else:
-                print(f"Неверно! Правильный ответ: {correct}")
+                print(f"Неверно!😔 Правильный ответ: {correct}")
         except ValueError:
-            print("Ошибка! Принимаются только числа")
+            print("Ошибка!🤐 Принимаются только числа")
             break
 
     print(f"Итог: {score}/{total}")
