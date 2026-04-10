@@ -44,6 +44,7 @@ def math_quiz():
 
     print(f"Итог: {score}/{total}")
     percent = (score / total) * 100
+    print(f"Процент: {percent}%")
     if score == total:
         print("Отлично! Ты гений!")
     else:
