@@ -26,7 +26,7 @@ def math_quiz():
 
     print("МАТЕМАТИЧЕСКИЙ ТРЕНАЖЕР")
     print(f"Реши {total} примеров")
-
+    difficulty = input("Выбери сложность (easy/hard): ")
     for i in range(total):
         example, correct = generate_example()
         print(f"\nПример №{i + 1}: {example} = ?")
