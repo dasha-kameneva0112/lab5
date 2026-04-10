@@ -26,7 +26,7 @@ def generate_example():
 
 def math_quiz():
     score = 0
-    total = 5
+    total = 7
 
     print("МАТЕМАТИЧЕСКИЙ ТРЕНАЖЕР")
     print(f"Реши {total} примеров")
