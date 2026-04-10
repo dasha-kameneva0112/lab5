@@ -2,8 +2,8 @@ import random
 
 
 def generate_example():
-    a = random.randint(1, 20)
-    b = random.randint(1, 20)
+    a = random.randint(1, 50)
+    b = random.randint(1, 50)
     op = random.choice(['+', '-', '*'])
 
     if op == '+':
