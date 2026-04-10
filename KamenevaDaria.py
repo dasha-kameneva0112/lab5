@@ -44,12 +44,12 @@ def math_quiz():
 
     print(f"Итог: {score}/{total}")
     if score == total:
-        print("Отлично! Ты гений!")
+        print("Отлично! Ты гений!🤓")
     else:
         if score >= total / 2:
-            print("Неплохо, но можно лучше")
+            print("Неплохо, но можно лучше☺️")
         else:
-            print("Нужно подтянуть математику")
+            print("Нужно подтянуть математику🫣")
     print("-" * 30)
 
 while True:
