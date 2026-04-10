@@ -55,6 +55,7 @@ def math_quiz():
             print("Нужно подтянуть математику")
     if score > best_score:
         best_score = score
+        print(f"Ура, у тебя новый рекорд: {best_score}🎉")
 
 while True:
     print("\n1. Начать тренировку")
