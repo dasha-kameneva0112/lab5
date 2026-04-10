@@ -23,6 +23,7 @@ def generate_example():
 def math_quiz():
     score = 0
     total = 5
+    best_score = 0
 
     print("МАТЕМАТИЧЕСКИЙ ТРЕНАЖЕР")
     print(f"Реши {total} примеров")
